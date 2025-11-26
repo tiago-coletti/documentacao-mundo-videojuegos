@@ -15,7 +15,7 @@ Visão geral da loja com destaques principais e banners promocionais.
 ## 6.3 Catálogo de Produtos
 Listagem de consoles e jogos com preços e opções de compra rápida.
 
-![Catálogo de Produtos](/img/produtos.jpg)
+![Catálogo de Produtos](/img/produtos.png)
 
 ## 6.4 Novidades e Atualizações
 Área destinada a notícias sobre lançamentos, eventos e promoções ativas.
