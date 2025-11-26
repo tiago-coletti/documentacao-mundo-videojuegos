@@ -1,28 +1,36 @@
 import { defineConfig } from 'vitepress'
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Documentacao",
-  description: "Um site vitepress",
+  title: "Mundo de los Videojuegos",
+  description: "Documentação do Sistema de Gestão",
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Início', link: '/' },
+      { text: 'Introdução', link: '/introducao' },
+      { text: 'Descrição', link: '/descricao' },
+      { text: 'Diagramas', link: '/uso' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Documentação do Projeto',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '1. Introdução', link: '/introducao' },
+          { text: '2. Descrição do Projeto', link: '/descricao' },
+          { text: '3. Recursos e Funcionalidades', link: '/recursos' },
+          { text: '4. Diagrama de Caso de Uso', link: '/uso' },
+          { text: '5. Diagramas de Classe', link: '/classe' },
+          { text: '6. Protótipos de Telas', link: '/prototipos' },
+          { text: '7. Cronograma e Entrega', link: '/cronograma' },
+          { text: '8. Riscos e Mitigação', link: '/riscos' },
+          { text: '9. Custos e Orçamento', link: '/custos' },
+          { text: '10. Considerações Finais', link: '/consideracoes' },
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/tiago-coletti/documentacao-mundo-videojuegos' }
     ]
   }
 })

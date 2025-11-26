@@ -1,25 +1,31 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
-  name: "Documentação do Sistema"
-  text: "Um site vitepress"
-  tagline: My great project tagline
+  name: "Mundo de los Videojuegos"
+  text: "Documentação do Software"
+  tagline: "Gestão de vendas, controle de estoque, pré-compras e eventos gamers."
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Começar a Ler
+      link: /introducao
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Ver no GitHub
+      link: https://github.com/tiago-coletti/documentacao-mundo-videojuegos
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Gestão de Vendas e Estoque
+    details: Controle automatizado de vendas, geração de nota fiscal e alertas de reposição.
+  - title: Sistema de Pré-vendas
+    details: Reserva de produtos indisponíveis garantindo prioridade no reabastecimento.
+  - title: Eventos e Comunidade
+    details: Organização de campeonatos e lançamentos com inscrições pelo portal do cliente.
 ---
 
+<div style="text-align: center; margin-top: 2rem;">
+
+### Equipe de Desenvolvimento
+**Lucas Nuncio, Murilo, Renso, Tiago e Luiz Villani**
+* Instituto Federal de Santa Catarina - 26/11/2025*
+
+</div>
