@@ -2,7 +2,7 @@
 
 Abaixo está o diagrama que representa as interações entre os atores (Clientes e Administradores) e as principais funcionalidades do sistema.
 
-![Diagrama de Caso de Uso](/public/img/uso.png)
+![Diagrama de Caso de Uso](/img/uso.png)
 
 ---
 
